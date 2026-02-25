@@ -1,0 +1,5 @@
+# Optional ClawHub skills to install on the VPS.
+# One slug per line. Failures are ignored by deploy scripts.
+#
+# Example:
+# org/skill-name

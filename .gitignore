@@ -1,0 +1,18 @@
+# OS/editor
+.DS_Store
+*.swp
+*.swo
+
+# Local deployment config/secrets
+config/do.env
+secrets/do.env
+secrets/do_ssh_key
+secrets/do_ssh_key.pub
+secrets/*.local
+
+# Terraform local cache/state
+infra/terraform/**/.terraform/
+infra/terraform/**/*.tfstate
+infra/terraform/**/*.tfstate.*
+infra/terraform/**/crash.log
+infra/terraform/**/crash.*.log
